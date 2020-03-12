@@ -1,11 +1,11 @@
 import * as React from 'react'
+import Background from '../layouts/Background/Background'
+import AnimateLogo from '../components/AnimateLogo/AnimateLogo'
 
 const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-  </div>
+  <Background>
+    <AnimateLogo />
+  </Background>
 )
 
 export default IndexPage

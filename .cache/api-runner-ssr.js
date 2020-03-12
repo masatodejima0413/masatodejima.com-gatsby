@@ -1,11 +1,11 @@
 var plugins = [{
-      plugin: require('/Users/masatodejima/program/privete/project-name/node_modules/gatsby-plugin-canonical-urls/gatsby-ssr'),
+      plugin: require('/Users/masatodejima/program/privete/masatodejima.com:gatsby/node_modules/gatsby-plugin-canonical-urls/gatsby-ssr'),
       options: {"plugins":[],"siteUrl":"https://gatsby-starter-typescript-plus.netlify.com"},
     },{
-      plugin: require('/Users/masatodejima/program/privete/project-name/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/masatodejima/program/privete/masatodejima.com:gatsby/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/masatodejima/program/privete/project-name/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('/Users/masatodejima/program/privete/masatodejima.com:gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
