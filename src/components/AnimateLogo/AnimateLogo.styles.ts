@@ -10,6 +10,12 @@ export const AnimateLogoWrapper = styled.div`
   position: absolute;
   left: 15.4511%;
   bottom: 25%;
+  div {
+    cursor: default;
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: 60px;
+  }
 `
 export const AnimateLogoContainer = styled.div`
   /* position: absolute;
