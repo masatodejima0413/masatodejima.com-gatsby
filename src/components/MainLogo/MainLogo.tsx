@@ -90,7 +90,7 @@ export const MainLogo = () => {
   const trailSprings = useTrail(letters.length, {
     ref: trailSpringsRef,
     from: { fontSize: '0px' },
-    to: { fontSize: '60px' },
+    to: { fontSize: '6rem' },
     config: { tension: 250 }
   })
 
@@ -102,7 +102,7 @@ export const MainLogo = () => {
       from: { color: colors.semiblack, fontSize: '20px' },
       to: {
         color: letter.color,
-        fontSize: '60px'
+        fontSize: '6rem'
       },
       config: { trail: 250 },
       delay: letter.delayMS

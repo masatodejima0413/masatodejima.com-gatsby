@@ -7,7 +7,7 @@ const Dot = Keyframes.Spring(async next => {
       from: {
         transform: 'translate(-2900px , -300px) rotate3d(1, 1, 1, 0deg)',
         color: colors.offwhite,
-        fontSize: '0px'
+        fontSize: '0rem'
       },
       color: colors.semiblack,
       transform: 'translate(0, -3000px) rotate3d(1, 1, 1, 360deg)',
@@ -33,8 +33,8 @@ const Dot = Keyframes.Spring(async next => {
     await next({
       color: colors.semiblack,
       opacity: 1,
-      transform: 'translate(0, -32%) rotate3d(1, 1, 1, 360deg)',
-      fontSize: '150px',
+      transform: 'translate(0, -20%) rotate3d(1, 1, 1, 360deg)',
+      fontSize: '15rem',
       delay: 2630,
       config: {
         mass: 1,
@@ -44,14 +44,14 @@ const Dot = Keyframes.Spring(async next => {
     })
     await next({
       color: colors.offwhite,
-      fontSize: '40px',
+      fontSize: '4rem',
       opacity: 1,
       transform: 'translate(0, 0) rotate3d(1, 1, 1, 360deg)',
       delay: 1000,
       config: config.slow
     })
     await next({
-      fontSize: '60px',
+      fontSize: '6rem',
       color: colors.semiblack,
       config: config.slow
     })
@@ -61,7 +61,7 @@ const Dot = Keyframes.Spring(async next => {
     })
     await next({
       transform: 'translate(-2900px , -3000px) rotate3d(1, 1, 1, 0deg)',
-      fontSize: '0px',
+      fontSize: '0rem',
       color: colors.offwhite,
       delay: 0,
       config: config.slow
