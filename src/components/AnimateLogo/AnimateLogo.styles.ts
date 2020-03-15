@@ -13,6 +13,7 @@ export const AnimateLogoWrapper = styled.div`
   bottom: 25%;
   @media (max-width: 480px) {
     left: 7.7255%;
+  }
   div {
     cursor: default;
     display: inline-block;
