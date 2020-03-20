@@ -12,7 +12,7 @@ const About = ({ data }: any) => {
     <Background>
       <PageTitle pageName="about" />
       <AboutContentContainer>
-        <ProfilePhotoContainer fixed={profilePhoto.fixed} />
+        <ProfilePhotoContainer sizes={{ ...profilePhoto.fluid, aspectRatio: 1 / 1 }} />
         <ProfileSentence>
           <p>
             Hello, I'm masatodejima.
@@ -36,8 +36,8 @@ export const query = graphql`
     file(relativePath: { eq: "ProfilePhoto.jpg" }) {
       id
       childImageSharp {
-        fixed(width: 400, height: 400, cropFocus: SOUTH) {
-          ...GatsbyImageSharpFixed
+        fluid(cropFocus: CENTER, fit: COVER) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
