@@ -7,4 +7,9 @@ export const ProfileSentence = styled.div`
   font-family: 'Montserrat', sans-serif;
   padding: 30px;
   width: 30%;
+  display: flex;
+  align-items: center;
+  @media (max-width: 480px) {
+    width: 80%;
+  }
 `

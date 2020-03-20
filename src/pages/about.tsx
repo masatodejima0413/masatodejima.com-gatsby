@@ -17,11 +17,11 @@ const About = ({ data }: any) => {
           <p>
             Hello, I'm masatodejima.
             <br />
-            this is profile message.
+            this is profile message.this is profile message.
             <br />
-            this is profile message.
+            this is profile message.this is profile message.
             <br />
-            this is profile message.
+            this is profile message.this is profile message.this is profile message.this is profile message.
           </p>
         </ProfileSentence>
       </AboutContentContainer>
