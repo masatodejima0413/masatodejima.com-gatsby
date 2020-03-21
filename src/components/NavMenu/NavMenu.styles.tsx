@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+import { animated } from 'react-spring'
 import { colors } from '../../styles/variables'
 
-export const Overlay = styled.div`
+export const Overlay = styled(animated.div)`
   z-index: 1;
   background-color: ${colors.offwhite};
   position: fixed;

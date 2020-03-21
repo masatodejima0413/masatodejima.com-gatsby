@@ -1,13 +1,17 @@
 import * as React from 'react'
 import { Overlay } from './NavMenu.styles'
 
-const NavMenu = () => {
+interface NavMenuProps {
+  style: any
+}
+
+const NavMenu = ({ style }: NavMenuProps) => {
   return (
-    <Overlay>
+    <Overlay style={style}>
       <ul>
-        <li>list1</li>
-        <li>list2</li>
-        <li>list3</li>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
       </ul>
     </Overlay>
   )
