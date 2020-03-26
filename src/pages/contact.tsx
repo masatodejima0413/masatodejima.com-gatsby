@@ -5,20 +5,18 @@ import { FacebookSquare } from '@styled-icons/boxicons-logos/FacebookSquare'
 import { LinkedinSquare } from '@styled-icons/boxicons-logos/LinkedinSquare'
 import { Twitter } from '@styled-icons/boxicons-logos/Twitter'
 import { MailSend } from '@styled-icons/boxicons-regular/MailSend'
-import { Work } from '@styled-icons/material-outlined/Work'
 import Background from '../layouts/Background/Background'
 import PageTitle from '../components/PageTitle/PageTitle'
-import { StyledIcon, StyledLinkIcon, LinkIconsWrapper, BagIcon } from '../components/Icons/Icons'
+import { StyledIcon, StyledLinkIcon, LinkIconsWrapper } from '../components/Icons/Icons'
 import { ContactContainer, ContactComment, MailAddress } from '../components/Contact/Contact.styled'
+import BagIcon from '../components/Icons/BagIcon'
 
 const Contact = () => {
   return (
     <Background>
       <PageTitle pageName="contact" />
       <ContactContainer>
-        <BagIcon>
-          <Work size="80" />
-        </BagIcon>
+        <BagIcon />
         <ContactComment>please contact me by email</ContactComment>
         <StyledIcon>
           <MailSend size="60" />
