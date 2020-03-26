@@ -10,4 +10,8 @@ export const StyledHamburger = styled.div`
   fill: ${colors.semiblack};
   stroke: #ffffff;
   cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    opacity: 0.8;
+  }
 `

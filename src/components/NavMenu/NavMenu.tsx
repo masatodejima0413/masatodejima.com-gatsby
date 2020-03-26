@@ -4,11 +4,12 @@ import { Overlay, NavList } from './NavMenu.styles'
 
 interface NavMenuProps {
   style: any
+  setIsShowingNavMenu: () => void
 }
 
-const NavMenu = ({ style }: NavMenuProps) => {
+const NavMenu = ({ style, setIsShowingNavMenu }: NavMenuProps) => {
   return (
-    <Overlay style={style}>
+    <Overlay style={style} onClick={() => setIsShowingNavMenu(false)}>
       <NavList>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>

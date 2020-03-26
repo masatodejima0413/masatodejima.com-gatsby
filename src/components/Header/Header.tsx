@@ -16,7 +16,9 @@ const Header = () => {
       <StyledHamburger onClick={(): void => setIsShowingNavMenu(!isShowingNavMenu)}>
         <Hamburger />
       </StyledHamburger>
-      {NavMenuTransitions.map(({ item, key, props }) => item && <NavMenu style={props} key={key} />)}
+      {NavMenuTransitions.map(
+        ({ item, key, props }) => item && <NavMenu style={props} key={key} setIsShowingNavMenu={setIsShowingNavMenu} />
+      )}
     </>
   )
 }
