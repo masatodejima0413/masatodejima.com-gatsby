@@ -1,10 +1,10 @@
 import { graphql } from 'gatsby'
 import * as React from 'react'
-import { ProfilePhotoContainer } from '../About/ProfilePhotoContainer'
+import { ProfilePhotoContainer } from '../components/About/ProfilePhotoContainer'
 import Background from '../layouts/Background/Background'
 import PageTitle from '../components/PageTitle/PageTitle'
-import { AboutContentContainer } from '../About/AboutContentContainer'
-import { ProfileSentence } from '../About/ProfileSentence'
+import { AboutContentContainer } from '../components/About/AboutContentContainer'
+import { ProfileSentence } from '../components/About/ProfileSentence'
 
 const About = ({ data }: any) => {
   const profilePhoto = data.file.childImageSharp
