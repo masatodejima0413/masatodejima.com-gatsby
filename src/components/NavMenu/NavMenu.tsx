@@ -1,5 +1,6 @@
 import * as React from 'react'
-import { Overlay } from './NavMenu.styles'
+import { Link } from 'gatsby'
+import { Overlay, NavList } from './NavMenu.styles'
 
 interface NavMenuProps {
   style: any
@@ -8,11 +9,11 @@ interface NavMenuProps {
 const NavMenu = ({ style }: NavMenuProps) => {
   return (
     <Overlay style={style}>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
+      <NavList>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+      </NavList>
     </Overlay>
   )
 }

@@ -8,7 +8,7 @@ const Header = () => {
   const [isShowingNavMenu, setIsShowingNavMenu] = React.useState<boolean>(false)
   const NavMenuTransitions = useTransition(isShowingNavMenu, null, {
     from: { opacity: 0 },
-    enter: { opacity: 1 },
+    enter: { opacity: 0.9 },
     leave: { opacity: 0 }
   })
   return (
