@@ -20,7 +20,7 @@ const O2 = Keyframes.Spring(async next => {
     await next({
       from: {
         opacity: 1,
-        fontSize: '4rem'
+        fontSize: '5rem'
       },
       opacity: 0.3,
       fontSize: '3rem',
@@ -29,12 +29,12 @@ const O2 = Keyframes.Spring(async next => {
     await next({
       color: colors.pink,
       opacity: 1,
-      fontSize: '6rem',
+      fontSize: '7rem',
       config: config.slow
     })
     await next({
       opacity: 0.3,
-      fontSize: '4rem',
+      fontSize: '5rem',
       config: config.slow
     })
     await next({
@@ -44,7 +44,7 @@ const O2 = Keyframes.Spring(async next => {
       config: config.slow
     })
     await next({
-      fontSize: '6rem',
+      fontSize: '7rem',
       color: colors.pink,
       delay: 1000,
       config: config.slow
@@ -58,7 +58,7 @@ const O2 = Keyframes.Spring(async next => {
         color: colors.pink
       },
       transform: 'translate(-3300px , -300px) rotate3d(1, 1, 1, 0deg)',
-      fontSize: '4rem',
+      fontSize: '5rem',
       color: colors.offwhite,
       delay: 0,
       config: config.slow

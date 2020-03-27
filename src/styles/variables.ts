@@ -22,7 +22,9 @@ export const colors = {
   green: '#00adb5',
   semiblack: '#393e46',
   black: '#222831',
-  pink: '#EF476F'
+  pink: '#EF476F',
+  darkblue: '#26547C',
+  darkblue2: '#0A2463'
 }
 
 export const fonts = {

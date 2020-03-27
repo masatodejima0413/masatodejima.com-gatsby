@@ -4,13 +4,14 @@ import { colors } from '../../styles/variables'
 export const AnimateLogoWrapper = styled.div`
   font-family: 'Montserrat', sans-serif;
   /* font-size: 40px; */
-  font-size: 4rem;
+  font-size: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  left: 15.4511%;
-  bottom: 25%;
+  left: 31.36%;
+  bottom: 20%;
+  transform: translate(-50%, -50%);
   @media (max-width: 480px) {
     left: 7.7255%;
   }

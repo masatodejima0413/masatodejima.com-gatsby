@@ -44,14 +44,14 @@ const Dot = Keyframes.Spring(async next => {
     })
     await next({
       color: colors.offwhite,
-      fontSize: '4rem',
+      fontSize: '5rem',
       opacity: 1,
       transform: 'translate(0, 0) rotate3d(1, 1, 1, 360deg)',
       delay: 1000,
       config: config.slow
     })
     await next({
-      fontSize: '6rem',
+      fontSize: '7rem',
       color: colors.semiblack,
       config: config.slow
     })
