@@ -3,6 +3,7 @@ import { colors } from '../../styles/variables'
 
 export const AnimateLogoWrapper = styled.div`
   font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
   /* font-size: 40px; */
   font-size: 5rem;
   display: flex;

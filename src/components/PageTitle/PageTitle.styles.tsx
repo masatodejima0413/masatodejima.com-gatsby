@@ -6,6 +6,7 @@ export const StyledPageTitle = styled.div`
   color: ${colors.green};
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   display: flex;
   justify-content: center;
   padding-top: 80px;

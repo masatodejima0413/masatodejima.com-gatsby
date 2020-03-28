@@ -24,7 +24,8 @@ export const colors = {
   black: '#222831',
   pink: '#EF476F',
   darkblue: '#26547C',
-  darkblue2: '#0A2463'
+  darkblue2: '#0A2463',
+  manutd: '#DA291C'
 }
 
 export const fonts = {
