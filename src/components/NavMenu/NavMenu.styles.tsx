@@ -20,6 +20,7 @@ export const NavList = styled.li`
   right: 60px;
   a {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 3rem;
     color: ${colors.semiblack};
     text-decoration: none;

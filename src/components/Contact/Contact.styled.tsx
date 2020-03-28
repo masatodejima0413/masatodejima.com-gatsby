@@ -6,6 +6,7 @@ export const ContactComment = styled.p`
   color: ${colors.semiblack};
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 `
 export const ContactContainer = styled.div`
   margin-top: 100px;
