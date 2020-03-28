@@ -31,7 +31,7 @@ export const StyledAskewBackground = styled(animated.div)`
     }
   }
 `
-const AskewBackground = () => {
+const AskewBackground: React.FC = () => {
   const props = useSpring({
     opacity: 1,
     from: { opacity: 0 },

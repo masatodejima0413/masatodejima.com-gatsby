@@ -7,7 +7,7 @@ interface NavMenuProps {
   setIsShowingNavMenu: () => void
 }
 
-const NavMenu = ({ style, setIsShowingNavMenu }: NavMenuProps) => {
+const NavMenu: React.FC<NavMenuProps> = ({ style, setIsShowingNavMenu }) => {
   return (
     <Overlay style={style} onClick={() => setIsShowingNavMenu(false)}>
       <NavList>

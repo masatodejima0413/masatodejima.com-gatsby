@@ -6,7 +6,11 @@ import PageTitle from '../components/PageTitle/PageTitle'
 import { AboutContentContainer } from '../components/About/AboutContentContainer'
 import { ProfileSentence } from '../components/About/ProfileSentence'
 
-const About = ({ data }: any) => {
+interface AboutProps {
+  data: any
+}
+
+const About: React.FC<AboutProps> = ({ data }) => {
   const profilePhoto = data.file.childImageSharp
   return (
     <Background>

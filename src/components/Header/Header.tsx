@@ -4,7 +4,7 @@ import Hamburger from '../Hamburger/Hamburger'
 import { StyledHamburger } from '../Hamburger/Hamburger.styles'
 import NavMenu from '../NavMenu/NavMenu'
 
-const Header = () => {
+const Header: React.FC = () => {
   const [isShowingNavMenu, setIsShowingNavMenu] = React.useState<boolean>(false)
   const NavMenuTransitions = useTransition(isShowingNavMenu, null, {
     from: { opacity: 0 },
