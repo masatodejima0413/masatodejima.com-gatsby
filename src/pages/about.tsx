@@ -4,7 +4,7 @@ import { ProfilePhotoContainer } from '../components/About/ProfilePhotoContainer
 import Background from '../layouts/Background/Background'
 import PageTitle from '../components/PageTitle/PageTitle'
 import { AboutContentContainer } from '../components/About/AboutContentContainer'
-import { ProfileSentence } from '../components/About/ProfileSentence'
+import ProfileSentence from '../components/About/ProfileSentence'
 
 interface AboutProps {
   data: any
@@ -17,17 +17,7 @@ const About: React.FC<AboutProps> = ({ data }) => {
       <PageTitle pageName="about" />
       <AboutContentContainer>
         <ProfilePhotoContainer sizes={{ ...profilePhoto.fluid, aspectRatio: 1 / 1 }} />
-        <ProfileSentence>
-          <p>
-            Hello, I'm masatodejima.
-            <br />
-            this is profile message.this is profile message.
-            <br />
-            this is profile message.this is profile message.
-            <br />
-            this is profile message.this is profile message.this is profile message.this is profile message.
-          </p>
-        </ProfileSentence>
+        <ProfileSentence />
       </AboutContentContainer>
     </Background>
   )
