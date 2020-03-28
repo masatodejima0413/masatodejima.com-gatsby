@@ -18,7 +18,7 @@ import M2 from './Letters/M2'
 import M3 from './Letters/M3'
 import O2 from './Letters/O2'
 
-const AnimateLogo = () => {
+const AnimateLogo: React.FC = () => {
   return (
     <AnimateLogoContainer>
       <AnimateLogoWrapper>

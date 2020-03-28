@@ -1,7 +1,11 @@
 import * as React from 'react'
 import { StyledPageTitle } from './PageTitle.styles'
 
-const PageTitle = ({ pageName }: string) => {
+interface PageTitleProps {
+  pageName: string
+}
+
+const PageTitle: React.FC<PageTitleProps> = ({ pageName }) => {
   return <StyledPageTitle>{pageName}</StyledPageTitle>
 }
 

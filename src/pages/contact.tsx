@@ -11,7 +11,7 @@ import { StyledIcon, StyledLinkIcon, LinkIconsWrapper } from '../components/Icon
 import { ContactContainer, ContactComment, MailAddress } from '../components/Contact/Contact.styled'
 import BagIcon from '../components/Icons/BagIcon'
 
-const Contact = () => {
+const Contact: React.FC = () => {
   return (
     <Background>
       <PageTitle pageName="contact" />

@@ -1,7 +1,7 @@
 import { Keyframes, config } from 'react-spring/renderprops'
 import { colors } from '../../../styles/variables'
 
-const A = Keyframes.Spring(async next => {
+const A: React.FC = Keyframes.Spring(async next => {
   while (true) {
     await next({
       from: {
