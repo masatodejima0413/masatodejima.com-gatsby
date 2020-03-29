@@ -11,6 +11,9 @@ export const StyledAskewBackground = styled(animated.div)`
   div {
     position: relative;
     padding: 30% 0;
+    @media (max-width: 480px) {
+      padding: 80% 0;
+    }
     &::before {
       content: '';
       overflow: hidden;
@@ -28,6 +31,9 @@ export const StyledAskewBackground = styled(animated.div)`
       -ms-transform: rotate(30deg);
       transform: rotate(30deg);
       z-index: -1;
+      @media (max-width: 480px) {
+        margin: -90% 10% 0;
+      }
     }
   }
 `

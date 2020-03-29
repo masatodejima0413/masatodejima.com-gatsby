@@ -11,12 +11,21 @@ export const StyledProfileSentence = styled.div`
   font-weight: 400;
   padding: 30px;
   width: 30%;
-  /* display: flex; */
-  /* align-items: center; */
   @media (max-width: 480px) {
     width: 80%;
+    text-align: center;
+    font-size: 3rem;
   }
 `
+export const HelloMasatodejima = styled.p`
+  font-weight: 600;
+  font-size: 3rem;
+  color: ${colors.pink};
+  @media (max-width: 480px) {
+    font-size: 4rem;
+  }
+`
+
 export const ToContactPage = styled.div`
   color: ${colors.pink};
   text-decoration: none;
@@ -37,7 +46,7 @@ const ProfileSentence: React.FC = () => {
   return (
     <>
       <StyledProfileSentence>
-        <p style={{ fontWeight: '600', fontSize: '3rem', color: colors.pink }}>Hello, I'm masatodejima.</p>
+        <HelloMasatodejima>Hello, I'm masatodejima.</HelloMasatodejima>
         <p>
           当サイトをご覧いただきありがとうございます。
           <br />

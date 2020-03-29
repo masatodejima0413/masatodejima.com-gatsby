@@ -10,4 +10,7 @@ export const StyledPageTitle = styled.div`
   display: flex;
   justify-content: center;
   padding-top: 80px;
+  @media (max-width: 480px) {
+    font-size: 6rem;
+  }
 `

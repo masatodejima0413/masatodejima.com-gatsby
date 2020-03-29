@@ -7,11 +7,14 @@ export const ContactComment = styled.p`
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+  @media (max-width: 480px) {
+    font-size: 4rem;
+  }
 `
 export const ContactContainer = styled.div`
   margin-top: 100px;
   @media (max-width: 480px) {
-    margin-top: 30px;
+    margin-top: 60px;
   }
 `
 export const MailAddress = styled.p`
@@ -23,4 +26,8 @@ export const MailAddress = styled.p`
   font-family: 'Montserrat', sans-serif;
   margin-top: 0;
   margin-bottom: 70px;
+  @media (max-width: 480px) {
+    margin-bottom: 30px;
+    font-size: 3rem;
+  }
 `

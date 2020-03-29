@@ -25,19 +25,19 @@ const Contact: React.FC = () => {
         <ContactComment>or by social media...</ContactComment>
         <LinkIconsWrapper>
           <StyledLinkIcon href="https://github.com/masatodejima0413" target="_black">
-            <Github size="60" />
+            <Github />
           </StyledLinkIcon>
           <StyledLinkIcon href="https://www.instagram.com/masatodejima/" target="_black">
-            <Instagram size="60" />
+            <Instagram />
           </StyledLinkIcon>
           <StyledLinkIcon href="https://www.facebook.com/mr.ukiuki.masato.happyturn" target="_black">
-            <FacebookSquare size="60" />
+            <FacebookSquare />
           </StyledLinkIcon>
           <StyledLinkIcon href="https://www.linkedin.com/in/masato-dejima-7791161a5/" target="_black">
-            <LinkedinSquare size="60" />
+            <LinkedinSquare />
           </StyledLinkIcon>
           <StyledLinkIcon href="https://twitter.com/" target="_black">
-            <Twitter size="60" />
+            <Twitter />
           </StyledLinkIcon>
         </LinkIconsWrapper>
       </ContactContainer>

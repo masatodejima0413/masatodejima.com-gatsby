@@ -15,6 +15,14 @@ export const StyledLinkIcon = styled.a`
     color: ${colors.green};
     transform: translateY(-10px);
   }
+  svg {
+    width: 60px;
+    height: 60px;
+    @media (max-width: 480px) {
+      width: 40px;
+      height: 40px;
+    }
+  }
 `
 export const LinkIconsWrapper = styled.div`
   display: flex;
