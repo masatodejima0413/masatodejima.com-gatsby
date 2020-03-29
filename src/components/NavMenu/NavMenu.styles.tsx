@@ -35,5 +35,8 @@ export const NavList = styled.li`
     &:hover {
       color: ${colors.green};
     }
+    @media (max-width: 480px) {
+      font-size: 6rem;
+    }
   }
 `

@@ -14,7 +14,7 @@ export const AnimateLogoWrapper = styled.div`
   bottom: 20%;
   transform: translate(-50%, -50%);
   @media (max-width: 480px) {
-    left: 7.7255%;
+    left: 50%;
   }
   div {
     cursor: default;
